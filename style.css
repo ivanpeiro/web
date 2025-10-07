@@ -11,8 +11,10 @@ header.img{
 }
 
 nav{
+  /*text-align: center;*/
   text-align: center;
-  padding-top: 5px;
+  padding-top: 1%;
+  /*background-color: rgb(225, 225, 248);*/
 }
 
 body{
@@ -34,8 +36,9 @@ body{
   padding: 5px;
   color: black;
   text-decoration-line: none;
-  /*background-color: black;*/
+  /*background-color: rgb(253, 243, 224);*/
   border-radius: 10px;
+  
 
   font-family: "Zalando Sans Expanded", sans-serif;
   font-optical-sizing: auto;
