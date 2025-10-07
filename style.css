@@ -10,4 +10,8 @@ nav{
         background-color: dimgray;
 }
 
-.titlebar{}
+marquee{
+  background-color: black;
+  color: aliceblue;
+  padding: 1%;
+}
