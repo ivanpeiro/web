@@ -6,12 +6,7 @@
   font-size: xx-large;
 }
 
-header.img{
-  align-self: center;
-}
-
 nav{
-  /*text-align: center;*/
   text-align: center;
   padding-top: 1%;
   /*background-color: rgb(225, 225, 248);*/
@@ -28,8 +23,6 @@ body{
   min-height: 100%;
   display: grid;
   grid-template-rows: auto 1fr auto;
-
-
 }
 
 .barbuttons{
@@ -47,13 +40,15 @@ body{
 }
 
 aside{
-  padding-right: 5%;
+  padding-right: 0px;
+  padding-left: 0px;
+  align-items: flex-start;
 }
 
 marquee{
-  background-color: black;
-  color: aliceblue;
-  padding: 1%;
+  /*background-color: black;*/
+  /*color: aliceblue;*/
+  padding: 10px;
 }
 
 footer{
@@ -68,4 +63,9 @@ footer{
   bottom: 0;
   width: 100%;
 
+}
+
+section{
+  padding-right: 17%;
+  padding-left: 17%;
 }
