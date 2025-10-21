@@ -14,15 +14,12 @@ nav{
 
 body{
   padding: 0%;
-  margin: 0%;
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings:"wdth" 100;
   min-height: 100%;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
 }
 
 .barbuttons{
@@ -39,10 +36,33 @@ body{
   font-style: normal;
 }
 
+.barbuttons:hover {
+  color: black;
+  font-family: "BBH Sans Bartle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+.barbuttons:active{
+  color: green;
+  font-family: "BBH Sans Bartle", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 aside{
-  padding-right: 0px;
+  padding-right: 8px;
   padding-left: 0px;
-  align-items: flex-start;
+  display: block;
+  position: fixed;
+
+}
+
+section{
+  padding-right: 17%;
+  padding-left: 17%;
 }
 
 marquee{
@@ -52,7 +72,7 @@ marquee{
 }
 
 footer{
-  background-color:rgb(238, 238, 238);
+  background-color:#eeeeee;
   text-align: center;
   padding-top: 3%;
   padding-bottom: 1%;
@@ -65,7 +85,7 @@ footer{
 
 }
 
-section{
-  padding-right: 17%;
-  padding-left: 17%;
+hr {
+  border-width: 2px;
 }
+

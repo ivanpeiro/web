@@ -1,0 +1,41 @@
+.cabezera {
+  font-family: "Zalando Sans Expanded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+
+}
+
+table {
+        border-style: solid;
+        background-color: black;
+        align-self: center;
+}
+
+tr{
+        border-style: solid;
+        background-color: white;
+}
+th {
+        border-style: solid;
+        padding: 10px;
+}
+
+td {
+        border-style: solid;
+        padding: 10px;
+}
+
+.nopad {
+        padding: 10px;
+}
+
+.recreo {
+
+  font-family: "Zalando Sans Expanded", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+}
