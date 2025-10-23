@@ -6,6 +6,8 @@
   font-size: xx-large;
 }
 
+
+
 nav{
   text-align: center;
   padding-top: 1%;
@@ -20,6 +22,7 @@ body{
   font-style: normal;
   font-variation-settings:"wdth" 100;
   min-height: 100%;
+
 }
 
 .barbuttons{
@@ -37,32 +40,36 @@ body{
 }
 
 .barbuttons:hover {
-  color: black;
-  font-family: "BBH Sans Bartle", sans-serif;
-  font-weight: 400;
+  color: rgb(18, 48, 4);
+  font-weight: bolder;
   font-style: normal;
+  text-decoration: underline overline;
 
 
 }
 
 .barbuttons:active{
-  color: green;
-  font-family: "BBH Sans Bartle", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+  color: rgb(53, 0, 0);
 }
 
 aside{
   padding-right: 8px;
   padding-left: 0px;
-  display: block;
-  position: fixed;
+  clear:  none;
+  width: fit-content;
+  float: left;
+  margin-left: 2%;
+}
 
+aside p {
+  padding: 0px;
+  margin: 0;
+  margin-left: 10px;
 }
 
 section{
   padding-right: 17%;
-  padding-left: 17%;
+  padding-left: 22%;
 }
 
 marquee{
@@ -78,7 +85,6 @@ footer{
   padding-bottom: 1%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
@@ -89,3 +95,14 @@ hr {
   border-width: 2px;
 }
 
+.links {
+  text-decoration-line: none;
+}
+
+.links:hover {
+  text-decoration-line:underline;
+}
+
+.first{
+  margin: 5px;
+}
